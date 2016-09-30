@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
-import ItemPicker from './ItemPicker'
-import BuildArea from './BuildArea'
+import ItemPicker from './Components/ItemPicker'
+import BuildArea from './Components/BuildArea'
 import logo from './logo.svg';
 import './App.css';
 
-const 
+const condiments = ['BUN']
+
 class App extends Component {
   render() {
     return (
       <div className="App">
       <ItemPicker />
-      <BuildArea />
+    <BuildArea condiments={condiments}/>
       </div>
     );
   }

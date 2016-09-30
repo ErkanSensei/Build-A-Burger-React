@@ -14,6 +14,12 @@
   float: left;
   }
 
+.condiment {
+}
+
+.condimentSelected {
+  background-color: red;
+}
 .buildArea {
   height: 80vh;
   width: 30%;
