@@ -11,8 +11,18 @@
   border-color: black;
   border-style: dashed;
   font-style: italic;
+  float: left;
+  }
 
+.buildArea {
+  height: 80vh;
+  width: 30%;
+  border-width: 5px;
+  border-color: red;
+  border-style: solid;
+  float: right;
 }
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
