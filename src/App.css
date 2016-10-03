@@ -27,8 +27,13 @@
   border-color: red;
   border-style: solid;
   float: right;
+  align-items: center;
+  overflow: auto;
 }
-
+.burger {
+  position: relative;
+  top: 50%;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;

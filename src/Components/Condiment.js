@@ -23,7 +23,13 @@ export default class Condiment extends Component {
       <button
       className={condimentSelected}
       onClick={() => {
-        this.setState({ selected: !this.state.selected })
+        if (this.state.selected === true) {
+          this.setState({ selected: false })
+          this.props.deleteItem(this.props.name)
+          return
+        }
+        this.setState({ selected: true })
+        this.props.addItem(this.props.name)
       }}
       >
         {this.props.name}
