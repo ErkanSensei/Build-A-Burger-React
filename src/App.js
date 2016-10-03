@@ -10,8 +10,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <ItemPicker />
-    <BuildArea condiments={condiments}/>
+        <ItemPicker />
+        <BuildArea condiments={condiments}/>
       </div>
     );
   }
